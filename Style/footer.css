@@ -1,0 +1,14 @@
+#footer-logo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 130px;
+    width: 130px;
+}
+.section{
+    background:#0E21A0;
+    color:white;
+}
+.contact-list a {
+    text-decoration: none;
+    color:white;
+}

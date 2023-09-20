@@ -1,0 +1,19 @@
+.navbar .nav-link {
+    color: white;
+}
+.navbar .nav-link.active {
+    color: white;
+}
+.navbar-brand {
+    color: white;
+    font-size: 17px;
+    font-family: 'Croissant One', cursive;
+}
+/* Add this CSS to your stylesheet or in a <style> tag in your HTML */
+
+/* Change the background color to white when hovering */
+.navbar-nav .nav-item:hover .nav-link {
+    background-color: white !important;
+    color: #4D2DB7 !important; /* Change the text color to your desired color */
+}
+    

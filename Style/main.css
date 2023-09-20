@@ -1,0 +1,15 @@
+#reg-heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 4vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+/* In your patient.css or a separate CSS file */
+.table-container {
+    padding: 1vw; /* Adjust the value as needed */
+    overflow: auto; /* Add this to enable scrolling if the content overflows */
+    max-width: 100%; /* Ensure the container doesn't exceed its parent's width */
+}
+/* Add these styles for horizontal alignment of buttons */
+

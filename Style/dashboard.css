@@ -1,0 +1,53 @@
+/* styles.css */
+
+#back-img-div {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#back-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50vh;
+    object-fit:fill;
+}
+
+/* Responsive adjustments for smaller screens */
+
+/* For mobile phones in portrait mode */
+@media (max-width: 480px) {
+    #back-img-div {
+        height: 10vhvh; /* Keep full viewport height */
+    }
+    #back-img {
+        height: 10vh; /* Keep full viewport height */
+    }
+}
+
+/* For larger mobile phones or landscape mode */
+@media (max-width: 768px) {
+    #back-img-div {
+        height: 50vh;
+        width: 100vw; /* Adjust the height as needed */
+    }
+    #back-img {
+        height: 100%; /* Keep full viewport height */
+    }
+}
+
+/* For tablets and larger screens */
+@media (min-width: 769px) {
+    #back-img-div {
+        height: 90vh; /* Adjust the height as needed */
+    }
+    #back-img {
+        height: 100%; /* Keep full viewport height */
+    }
+}
+
+
+
